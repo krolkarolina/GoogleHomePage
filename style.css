@@ -11,11 +11,11 @@
   height: 30px;
   width: 100%;
   font-family: "Arial", serif;
-  font-size: 14px;
-  word-spacing: 14px;
+  font-size: 13px;
+  word-spacing: 13px;
   text-align: right;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 img {
