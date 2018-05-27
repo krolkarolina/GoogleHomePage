@@ -1,21 +1,25 @@
 .container {
   display: flex;
   width: 1900px;
-  justify-content: flex-end;
-  margin-left: -50px;
-  margin-right: -50px;
   margin-top: 19px;
-
+  margin-left: 10px;
+  margin-right: 10px;
+  word-spacing: 10px;
 }
 
-nav {
+.nav {
   height: 30px;
+  width: 100%;
   font-family: "Arial", serif;
-  font-size: 13px;
+  font-size: 14px;
+  word-spacing: 14px;
+  text-align: right;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-a {
-  text-align: center;
+img {
+  vertical-align: middle;
 }
 
 a:hover {
