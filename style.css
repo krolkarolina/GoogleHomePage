@@ -17,7 +17,7 @@
   height: 20%;
 }
 
-img {
+span img {
   vertical-align: middle;
 }
 
@@ -43,6 +43,31 @@ a:hover {
 .main {
   width: 96%;
   height: 72%;
+
+}
+
+.googleIcon {
+  text-align: center;
+}
+
+input {
+  width: 580px;
+  height: 40px;
+  border: 1px solid #EBEBEB;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 1px 0.5px #C5C5C5;
+  margin-left: 634.5px;
+  margin-right: 644.5px;
+  margin-top: 25px;
+  padding-left: 10px;
+  line-height: 34px;
+}
+
+
+input:focus { 
+  outline: none;
+  border-color: #EBEBEB ;
 }
 
 footer {
