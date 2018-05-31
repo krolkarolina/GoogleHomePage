@@ -167,3 +167,9 @@ a span {
   padding-right: 20px;
   color: #666666;
 }
+
+@media only screen and (max-height: 850px) {
+  .container {
+    height: 850px;
+  }
+}
