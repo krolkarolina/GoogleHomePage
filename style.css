@@ -168,8 +168,8 @@ a span {
   color: #666666;
 }
 
-@media only screen and (max-height: 850px) {
+@media only screen and (max-height: 830px) {
   .container {
-    height: 850px;
+    height: 830px;
   }
 }
