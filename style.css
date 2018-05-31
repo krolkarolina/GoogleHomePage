@@ -48,19 +48,38 @@ a:hover {
 }
 
 input {
-  height: 40px;
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  border: 1px solid #EBEBEB;
+  margin: 0px;
+  padding: 0px;
   font-size: 16px;
   font-family: "Arial", sans-serif;
-  box-shadow: 0 1px 0.5px #C5C5C5;
   padding-left: 10px;
-  line-height: 34px;
+  line-height: 40px;
+  height: auto;
+  width: 75%;
+  border-style: none;
+}
+
+.input {
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 1px 0.5px #C5C5C5;
   border-radius: 2px;
+  height: 40px;
+  max-width: 30%;
+  margin-left: 34.5%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+span #image {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+span #mic {
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 20px;
+  height: 30px;
 }
 
 
@@ -166,10 +185,4 @@ footer {
 a span {
   padding-right: 20px;
   color: #666666;
-}
-
-@media only screen and (max-height: 1200px) {
-  .container {
-    height: 830px;
-  }
 }
